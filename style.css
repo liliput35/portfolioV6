@@ -331,10 +331,7 @@ footer p {
     display: unset;
   }
 
-  .hero {
-    height: max-content;
-    padding-bottom: 3em;
-  }
+ 
 
   .hero {
     text-align: center;
