@@ -128,18 +128,6 @@ nav ul li a:hover::after {
   position: relative;
 }
 
-.featured::before {
-  content: "";
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: #b7c7f8;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
 .featured .container {
   padding-top: 5em;
   padding-left: 20%;
@@ -187,17 +175,7 @@ nav ul li a:hover::after {
   position: relative;
   padding-top: 4em;
 }
-.about::before {
-  content: "";
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: #b7c7f8;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-}
+
 
 .about .subtitle {
   color: var(--purple);
